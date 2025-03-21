@@ -2,6 +2,12 @@ name: Bump Issue
 description: Issue used to bump the version of a Lean.
 title: "Bump to version: "
 body:
+- type: markdown
+  attributes:
+    value: |
+      This issue tracks the process of bumping the version of this Lean project.
+      Please check off the items in the following checklists as you complete them.
+
 - type: checkboxes
   id: basics
   attributes:
