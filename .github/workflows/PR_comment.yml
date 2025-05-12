@@ -9,6 +9,8 @@ jobs:
     build:
         name: Comment a pull_request
         runs-on: ubuntu-latest
+        permissions:
+            pull-requests: write
   
         steps:
             - name: Checkout
