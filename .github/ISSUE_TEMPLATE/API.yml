@@ -7,7 +7,6 @@ body:
   - type: textarea
     id: content
     attributes:
-      label: Issue content
       value: |
         The details of this issue are not yet completed. The issue is here to track the progress of the API specified by the title. Parts of this API may already be included within the project. There are a number of things we need to specify, help in specifying these points is appreciated.
 
