@@ -9,27 +9,26 @@ body:
     attributes:
       label: Issue content
       value: |
-              
-      The details of this issue are not yet completed. 
-      The issue is here to track the progress of the API specified by the title. 
-      Parts of this API may already be included within the project. There are a number of things we need to specify, help in specifying these points is appreciated.
+        The details of this issue are not yet completed. 
+        The issue is here to track the progress of the API specified by the title. 
+        Parts of this API may already be included within the project. There are a number of things we need to specify, help in specifying these points is appreciated.
 
-      ## Key data structure 
+        ## Key data structure 
 
-      What is the key data structure the API is built around.
+        What is the key data structure the API is built around.
 
-      ## Need
+        ## Need
 
-      Why is this API needed, after it is completed, what will it make easier or allow us to do.
+        Why is this API needed, after it is completed, what will it make easier or allow us to do.
 
-      ## Requirements
+        ## Requirements
 
-      A tickbox list of the requirements of the API. This should include things which have already been done as well as things still to be worked on.
+        A tickbox list of the requirements of the API. This should include things which have already been done as well as things still to be worked on.
 
-      ## Corresponding file system
+        ## Corresponding file system
 
-      If it exists, the part of the PhysLean which corresponds to this API.
+        If it exists, the part of the PhysLean which corresponds to this API.
 
-      ## Parent APIs
+        ## Parent APIs
     validations:
       required: false
