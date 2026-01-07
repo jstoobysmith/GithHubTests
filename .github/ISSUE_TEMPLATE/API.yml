@@ -1,18 +1,21 @@
-name: API Issue
-description: Use this template for API-related issues.
-title: "[API] "
-labels: ["TODO"]
-assignees: ""
-
+name: API
+description: Auto-filled API issue
+title: "API TODO"
+labels:
+  - TODO
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please provide the details of the API issue below.
-
   - type: textarea
-    id: description
+    id: content
     attributes:
-      label: Description
-      description: Provide a detailed description of the issue.
-      placeholder: Describe the issue here...
+      label: Issue content
+      value: |
+        This issue was auto-generated from the API template.
+
+        Summary:
+        - Implement necessary API work.
+        - Ensure tests and documentation are updated.
+
+        Notes:
+        - No additional input required at creation time.
+    validations:
+      required: false
