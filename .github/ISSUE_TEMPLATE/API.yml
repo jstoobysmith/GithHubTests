@@ -1,6 +1,6 @@
 name: API
-description: Auto-filled API issue
-title: "API TODO"
+description: Auto-filled issue for API building
+title: "API: "
 labels:
   - good first issue
 body:
@@ -9,13 +9,27 @@ body:
     attributes:
       label: Issue content
       value: |
-        This issue was auto-generated from the API template.
+              
+      The details of this issue are not yet completed. 
+      The issue is here to track the progress of the API specified by the title. 
+      Parts of this API may already be included within the project. There are a number of things we need to specify, help in specifying these points is appreciated.
 
-        Summary:
-        - Implement necessary API work.
-        - Ensure tests and documentation are updated.
+      ## Key data structure 
 
-        Notes:
-        - No additional input required at creation time.
+      What is the key data structure the API is built around.
+
+      ## Need
+
+      Why is this API needed, after it is completed, what will it make easier or allow us to do.
+
+      ## Requirements
+
+      A tickbox list of the requirements of the API. This should include things which have already been done as well as things still to be worked on.
+
+      ## Corresponding file system
+
+      If it exists, the part of the PhysLean which corresponds to this API.
+
+      ## Parent APIs
     validations:
       required: false
