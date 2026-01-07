@@ -27,6 +27,5 @@ body:
 
         If it exists, the part of the PhysLean which corresponds to this API.
 
-        ## Parent APIs
     validations:
       required: false
